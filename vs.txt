@@ -24,5 +24,8 @@ Quokka(vscode extension) shortcut
  * To start/restart Quokka on an existing file:
  *   - Press `Ctrl K, Q`	(IMPORTANT) 	
 
+  * if Quokka show error like  "Cannot find module 'jsdom' Require stack: - .\index.js" then copy below command and run it in terminal
 
+cd ~/.quokka/
+npm i jsdom-quokka-plugin jsdom
 
